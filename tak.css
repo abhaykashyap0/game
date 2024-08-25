@@ -1,0 +1,46 @@
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    text-align: center;
+    background-color:black
+    /* background-image:url("tic-tac-toe-seamless-background-on-dark-blue-illustration-vector.jpg");
+    background-size: cover; */
+}
+h1{
+
+    text-shadow: 3px 2px rgb(255, 0, 153);
+    text-decoration:underline;
+
+}
+#bigbox{
+    width: 500px;
+    height: 500px;
+    background-color: darkturquoise;
+    margin-left: 470px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    
+}
+.box{
+    width: 150px;
+    height: 150px;
+    background-image:repeating-conic-gradient(
+        yellow 10%,blue 20%,
+        transparent 120deg
+    ) ;
+    color: red;
+    font-size: 5rem;
+    
+   
+}
+#result{
+    display: flex;justify-content: center;
+    margin-left: 28em;
+    margin-top: 3em;
+    width: 8rem;
+    font-size: 1.5em;
+    /* height: 7rem; */
+
+}
